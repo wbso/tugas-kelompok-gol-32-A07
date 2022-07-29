@@ -101,6 +101,11 @@
     width: 124px;
     margin-top: 20px;
   }
+
+  .img-logo{
+    width: 100%;
+    padding: 10px;
+  }
   
   .header-left {
     float: left;
