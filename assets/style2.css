@@ -1,0 +1,262 @@
+/* Ketik code Anda dibaris terakhir */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 160px 0 100px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/background-img2.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper-left {
+    float: left;
+    height: 330px;
+    width: 40%;
+    padding-bottom: 30px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .twl-image {
+    width: 100%;
+    height: 50%;
+    margin: 10% auto;
+  }
+
+  .twl-image img {
+    border-radius: 50%;
+    width: 35%;
+    height: 100%;
+  }
+
+  .top-wrapper-right {
+    float: right;
+    width: 60%; 
+  }
+
+  .twr-container {
+    max-width: 75%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .twr-1 {
+    padding: 15px 0;
+  }
+
+  .twr-2 {
+    padding: 15px 0;
+  }
+
+  .twr-1 span {
+    display: inline-block;
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+
+  .twr-container p {
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+    font-size: 1.2rem;
+    opacity: 0.7;
+  }
+
+  .contact-item span {
+    display: inline-block;
+    width: 90px;
+    font-weight: bold;
+  }
+
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.7);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .lesson-wrapper {
+    margin-top: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .lesson {
+    float: left;
+    width: 23%;
+    border: 4px solid rgba(0, 0, 0, 0.7);
+    border-radius: 2%;
+    height: 300px;
+    margin: 1%;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .lesson span {
+    line-height: 300px;
+  }
+
+  .lesson:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none !important;
+  }
+  
+  #lesson-1:hover {
+   color: #0072b1;
+   border: 4px double #0072b1;
+   box-shadow: 0 10px #0072b1;
+   opacity: 1 !important;
+   animation-name: lesson1;
+   animation-duration: 1s;
+  }
+
+  @keyframes lesson1 {
+    from {background-color: #f7f7f7;}
+    to {background-color: rgba(21, 105, 222, 0.3)}
+  }
+  
+  #lesson-2:hover {
+    color: purple;
+    border: 4px double purple;
+    box-shadow: 0 10px purple;
+    opacity: 1 !important;
+    animation-name: lesson2;
+    animation-duration: 1s;
+  }
+
+  @keyframes lesson2 {
+    from {background-color: #f7f7f7;}
+    to {background-color: rgba(128, 0, 128, 0.3)}
+  }
+
+  #lesson-3:hover {
+    color: brown;
+    border: 4px double brown;
+    box-shadow: 0 10px brown;
+    opacity: 1 !important;
+    animation-name: lesson3;
+    animation-duration: 1s;
+  }
+
+  @keyframes lesson3 {
+    from {background-color: #f7f7f7;}
+    to {background-color: rgba(165, 42, 42, 0.3)}
+  }
+
+  #lesson-4:hover {
+    color: #00acee;
+    border: 4px double #00acee;
+    box-shadow: 0 10px #00acee;
+    opacity: 1 !important;
+    animation-name: lesson4;
+    animation-duration: 1s;
+  }
+
+  @keyframes lesson4 {
+    from {background-color: #f7f7f7;}
+    to {background-color: rgba(1, 166, 212, 0.25)}
+  }
+
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  
+  /* Ketik code Anda dibawah */
+  span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  
